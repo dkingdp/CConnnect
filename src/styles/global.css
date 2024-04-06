@@ -2,7 +2,47 @@ html,
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: "Poppins",  BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+
+.content {
+  width: 1470px;
+  margin: 0 auto;
+}
+
+.main-height {
+  height: 830px;
+}
+
+.triangle {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  transform: rotate(50%);
+  height: 1875px;
+  width: 1500px;
+  background: #569542;
+  position: absolute;
+  top: 0;
+  right: -600px;
+}
+
+.card {
+  height: 430px;
+  width: 450px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.testimonial {
+  width: 680px;
+  height: 329px;
+  border-radius: 20px;
+  border-left: 14px solid;
+  border-color: #F67766;
 }

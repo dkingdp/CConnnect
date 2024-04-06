@@ -1,15 +1,12 @@
 import Container from "@components/Container";
-import Features from "@components/Features";
 import Footer from "@components/Footer";
 import Gallery from "@components/Gallery";
 import Header from "@components/Header";
-import Info from "@components/Info";
-import Main from "@components/Main";
-import Services from "@components/Services";
+import MainGallery from "@components/MainGallery";
 import Head from "next/head";
 import React from "react";
 
-const Home: React.FC = () => {
+const GalleryPage: React.FC = () => {
     return (
         <>
             <Head>
@@ -27,11 +24,11 @@ const Home: React.FC = () => {
             <Container>
                 <>
                     <Header />
-                    <Main />
-                    <Services />
-                    <Features />
+                    <MainGallery />
                     <Gallery />
-                    <Info />
+                    <div className="w-full flex justify-center">
+                        <div className="text-white bg-primary-100 mt-20 w-60 rounded-r-full rounded-l-full h-20 flex justify-center items-center">More Pictures</div>
+                    </div>
                     <Footer />
                 </>
             </Container>
@@ -39,4 +36,4 @@ const Home: React.FC = () => {
     );
 };
 
-export default Home;
+export default GalleryPage;

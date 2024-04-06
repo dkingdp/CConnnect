@@ -1,15 +1,11 @@
+import AboutInfo from "@components/AboutInfo";
 import Container from "@components/Container";
-import Features from "@components/Features";
 import Footer from "@components/Footer";
-import Gallery from "@components/Gallery";
 import Header from "@components/Header";
-import Info from "@components/Info";
-import Main from "@components/Main";
-import Services from "@components/Services";
+import MainAbout from "@components/MainAbout";
 import Head from "next/head";
-import React from "react";
 
-const Home: React.FC = () => {
+const About: React.FC = () => {
     return (
         <>
             <Head>
@@ -27,11 +23,8 @@ const Home: React.FC = () => {
             <Container>
                 <>
                     <Header />
-                    <Main />
-                    <Services />
-                    <Features />
-                    <Gallery />
-                    <Info />
+                    <MainAbout />
+                    <AboutInfo />
                     <Footer />
                 </>
             </Container>
@@ -39,4 +32,4 @@ const Home: React.FC = () => {
     );
 };
 
-export default Home;
+export default About;
