@@ -13,7 +13,7 @@ body {
 
 
 .content {
-  width: 1470px;
+  width: 1420px;
   margin: 0 auto;
 }
 
@@ -45,4 +45,12 @@ body {
   border-radius: 20px;
   border-left: 14px solid;
   border-color: #F67766;
+}
+
+.slider_section {
+
+}
+
+.slick-slider {
+  
 }

@@ -6,17 +6,17 @@ import path from "../icons/path.png"
 
 const MainGallery = () => {
     return (
-        <div className="main-height bg-primary-200 relative overflow-y-hidden">
+        <div className="main-height bg-primary-200 relative overflow-x-hidden">
             <div className="absolute bottom-0 -left-1">
                 <Image src={Arc} />
             </div>
             <div className="content h-full relative">
-                <div className="flex flex-col h-full justify-center gap-y-8">
+                <div className="flex flex-col h-full justify-center gap-y-8 relative z-50">
                     <p className="capitalize font-bold text-6xl text-white">
                         {" "}
                         Our Gallery
                     </p>
-                    
+
                     <button className="w-32 h-12 rounded bg-primary-100 font-medium text-white cursor-pointer transition-all ease-out">
                         Let's Talk{" "}
                     </button>

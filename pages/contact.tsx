@@ -1,12 +1,11 @@
-import AboutInfo from "@components/AboutInfo";
-import Carousel from "@components/Carousel";
+import ContactForm from "@components/ContactForm";
 import Container from "@components/Container";
 import Footer from "@components/Footer";
 import Header from "@components/Header";
-import MainAbout from "@components/MainAbout";
+import MainContact from "@components/MainContact";
 import Head from "next/head";
 
-const About: React.FC = () => {
+const Contact: React.FC = () => {
     return (
         <>
             <Head>
@@ -24,9 +23,8 @@ const About: React.FC = () => {
             <Container>
                 <>
                     <Header />
-                    <MainAbout />
-                    <AboutInfo />
-                    <Carousel />
+                    <MainContact />
+                    <ContactForm />
                     <Footer />
                 </>
             </Container>
@@ -34,4 +32,4 @@ const About: React.FC = () => {
     );
 };
 
-export default About;
+export default Contact;

@@ -2,9 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Arc from "../icons/arc.png";
 import Img from "../icons/main-image.png";
-import path from "../icons/path.png"
+import path from "../icons/path.png";
 
-const MainAbout = () => {
+const MainContact = () => {
     return (
         <div className="main-height bg-primary-200 relative overflow-x-hidden">
             <div className="absolute bottom-0 -left-1">
@@ -14,13 +14,7 @@ const MainAbout = () => {
                 <div className="flex flex-col h-full justify-center gap-y-8 relative z-50">
                     <p className="capitalize font-bold text-6xl text-white">
                         {" "}
-                        About Community Connect
-                    </p>
-                    <p className="capitalize font-bold text-3xl text-primary-300">
-                        provide comprehensive support tailored to
-                    </p>
-                    <p className="capitalize font-bold text-3xl text-primary-300">
-                        the specific needs
+                        Contact Us
                     </p>
                     <button className="w-32 h-12 rounded bg-primary-100 font-medium text-white cursor-pointer transition-all ease-out">
                         Let's Talk{" "}
@@ -39,4 +33,4 @@ const MainAbout = () => {
     );
 };
 
-export default MainAbout;
+export default MainContact;
