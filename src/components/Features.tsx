@@ -76,7 +76,7 @@ const Features = () => {
                         <span className="text-primary-100">Management</span>
                     </p>
                     <p className="text-2xl">
-                        Case management is a approach to helping <br /> people
+                        Case management is an approach to helping <br /> people
                         accomplish daily work and automating <br />
                         work from end-to-end.
                     </p>
@@ -99,9 +99,9 @@ const Features = () => {
                         <span className="text-primary-100">And Resources</span>
                     </p>
                     <p className="text-2xl">
-                        Case management is a approach to helping <br /> people
-                        accomplish daily work and automating <br />
-                        work from end-to-end.
+                        Easily launch live assignments, quizzes, and tests.
+                        Student results are automatically entered in the online
+                        gradebook.
                     </p>
                 </div>
             </div>
