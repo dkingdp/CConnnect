@@ -5,32 +5,44 @@ import Brand1 from "../icons/3.png";
 import Brand2 from "../icons/1.png";
 import Brand3 from "../icons/2.png";
 import Brand4 from "../icons/4.png";
+import { BsTwitterX } from "react-icons/bs";
+import { FaInstagramSquare, FaFacebook } from "react-icons/fa";
+import Link from "next/link";
 
 const Footer = () => {
     return (
         <>
             <div className="my-32 content flex justify-between">
-                <Image src={Brand1} />
+                {/* <Image src={Brand1} />
                 <Image src={Brand2} />
                 <Image src={Brand3} />
-                <Image src={Brand4} />
+                <Image src={Brand4} /> */}
             </div>
             <div className="bg-primary-700">
                 <div className="py-20 flex content justify-between border-b text-white border-primary-800">
                     <Image src={Logo} />
                     <div className="">
                         <p className="mb-5 font-bold text-lg">Quick Link</p>
-                        <p className="mb-2 text-lg text-primary-800">Home</p>
-                        <p className="mb-2 text-lg text-primary-800">
-                            About us
-                        </p>
-                        <p className="mb-2 text-lg text-primary-800">
+                        <Link href={"/"}>
+                            <p className="mb-2 text-lg text-primary-800 cursor-pointer">
+                                Home
+                            </p>
+                        </Link>
+                        <Link href={"/about"}>
+                            <p className="mb-2 text-lg text-primary-800 cursor-pointer">
+                                About us
+                            </p>
+                        </Link>
+
+                        {/* <p className="mb-2 text-lg text-primary-800">
                             Features
-                        </p>
-                        <p className="mb-2 text-lg text-primary-800">
-                            Photo gallery
-                        </p>
-                        <p className="mb-2 text-lg text-primary-800">Team</p>
+                        </p> */}
+                        <Link href={"/gallery"}>
+                            <p className="mb-2 text-lg text-primary-800 cursor-pointer">
+                                Photo gallery
+                            </p>
+                        </Link>
+                        {/* <p className="mb-2 text-lg text-primary-800">Team</p> */}
                     </div>
                     <div className="">
                         <p className="mb-5 font-bold text-lg">Get In Touch</p>
@@ -64,6 +76,23 @@ const Footer = () => {
                             Your email is safe with us,we don’t spam.
                         </p>
                         <p className="mt-8 font-bold text-lg">Follow Me</p>
+                        <div className="flex gap-x-4 mt-2">
+                            {/* <a href="" target="">
+                                <span className="h-8 w-8 bg-primary-50 border flex justify-center items-center rounded-full cursor-pointer">
+                                    <BsTwitterX color="gray" />
+                                </span>
+                            </a> */}
+                            <a href="https://www.instagram.com/cconnect_md/">
+                                <span className="h-8 w-8 bg-primary-50 border flex justify-center items-center rounded-full cursor-pointer">
+                                    <FaInstagramSquare color="gray" />
+                                </span>
+                            </a>
+                            <a href="https://www.facebook.com/people/Community-Connect-MD">
+                                <span className="h-8 w-8 bg-primary-50 border flex justify-center items-center rounded-full cursor-pointer">
+                                    <FaFacebook color="gray" />
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <div className="w-full flex justify-center py-10">

@@ -54,3 +54,7 @@ body {
 .slick-slider {
   
 }
+
+.z-top {
+  z-index: 10000 !important;
+}

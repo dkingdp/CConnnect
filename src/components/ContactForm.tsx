@@ -67,7 +67,7 @@ const ContactForm = () => {
                     </div>
                 </div>
                 <div className="col-span-2">
-                    <div className="h-full border relative items-center">
+                    <div className="h-full relative items-center justify-center">
                         <div className="flex flex-col bg-primary-900 h-72 p-6 text-black">
                             <p className="font-bold text-6xl">Address</p>
                             <p>

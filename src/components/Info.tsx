@@ -9,6 +9,8 @@ import Brand2 from "../icons/1.png";
 import Brand3 from "../icons/2.png";
 import Brand4 from "../icons/4.png";
 import Image from "next/image";
+import { FaArrowRight } from "react-icons/fa6";
+import { FaStar } from "react-icons/fa";
 
 const Info = () => {
     return (
@@ -61,7 +63,9 @@ const Info = () => {
                     <div className="flex justify-center">
                         <div className="h-20 w-64 relative border border-primary-400 border-r-0 rounded-r-full rounded-l-full flex pl-12  items-center text-2xl text-primary-400">
                             See More
-                            <span className="h-20 w-20 rounded-full absolute right-0 top-0 border border-primary-400"></span>
+                            <span className="h-20 w-20 rounded-full absolute right-0 top-0 border border-primary-400 flex justify-center items-center">
+                                <FaArrowRight />
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -79,8 +83,14 @@ const Info = () => {
                                 Gloria Rose
                             </p>
                             <div>
-                                <div>Rates</div>
-                                <div>12 Reviews at Yelp</div>
+                                <div className="flex gap-x-1">
+                                    <FaStar color="#FBA333" />
+                                    <FaStar color="#FBA333" />
+                                    <FaStar color="#FBA333" />
+                                    <FaStar color="#FBA333" />
+                                    <FaStar color="#FBA333" />
+                                </div>
+                                <div className="">12 Reviews at Yelp</div>
                             </div>
                         </div>
                     </div>
