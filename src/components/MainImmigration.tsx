@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Arc from "../icons/arc.png";
 import Img from "../icons/main-image.png";
+import Link from "next/link";
 
 const MainImmigration = () => {
     return (
@@ -11,14 +12,15 @@ const MainImmigration = () => {
             </div>
             <div className="content h-full relative">
                 <div className="flex flex-col h-full justify-center gap-y-8 relative z-50">
-                    <p className="capitalize font-bold text-6xl text-white">
+                    <p className="capitalize font-bold text-5xl text-white">
                         {" "}
                         Immigration Assistance
                     </p>
-
-                    <button className="w-32 h-12 rounded bg-primary-100 font-medium text-white cursor-pointer transition-all ease-out">
-                        Let's Talk{" "}
-                    </button>
+                    <Link href={"/contact"}>
+                        <button className="w-32 h-12 rounded bg-primary-100 font-medium text-white cursor-pointer transition-all ease-out">
+                            Let's Talk{" "}
+                        </button>
+                    </Link>
                 </div>
                 <div className="absolute right-0 bottom-0 z-30">
                     <Image src={Img} />

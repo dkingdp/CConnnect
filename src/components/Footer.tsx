@@ -24,12 +24,12 @@ const Footer = () => {
                     <div className="">
                         <p className="mb-5 font-bold text-lg">Quick Link</p>
                         <Link href={"/"}>
-                            <p className="mb-2 text-lg text-primary-800 cursor-pointer">
+                            <p className="mb-2 text-primary-800 cursor-pointer">
                                 Home
                             </p>
                         </Link>
                         <Link href={"/about"}>
-                            <p className="mb-2 text-lg text-primary-800 cursor-pointer">
+                            <p className="mb-2 text-primary-800 cursor-pointer">
                                 About us
                             </p>
                         </Link>
@@ -38,34 +38,34 @@ const Footer = () => {
                             Features
                         </p> */}
                         <Link href={"/gallery"}>
-                            <p className="mb-2 text-lg text-primary-800 cursor-pointer">
+                            <p className="mb-2 text-primary-800 cursor-pointer">
                                 Photo gallery
                             </p>
                         </Link>
                         {/* <p className="mb-2 text-lg text-primary-800">Team</p> */}
                     </div>
                     <div className="">
-                        <p className="mb-5 font-bold text-lg">Get In Touch</p>
-                        <p className="mb-2 text-lg text-primary-800">
+                        <p className="mb-5 font-bold">Get In Touch</p>
+                        <p className="mb-2 text-primary-800">
                             Contact Us
                         </p>
-                        <p className="mb-2 text-lg text-primary-800">
+                        <p className="mb-2 text-primary-800">
                             About us
                         </p>
                     </div>
                     <div className="">
-                        <p className="mb-5 font-bold text-lg">Address</p>
-                        <p className="mb-2 text-lg text-primary-800">
+                        <p className="mb-5 font-bold">Address</p>
+                        <p className="mb-2 text-primary-800">
                             2464 Royal Ln. Mesa,
                             <br /> New Jersey 45463
                         </p>
                     </div>
                     <div className="">
-                        <p className="mb-5 font-bold text-lg">Newsletter</p>
+                        <p className="mb-5 font-bold ">Newsletter</p>
                         <div className="flex">
                             <input
                                 type="text"
-                                className="h-12 pl-4 w-80 text-primary-800"
+                                className="h-12 pl-4 w-60 text-primary-800"
                                 placeholder="Enter Your Email"
                             />
                             <button className="h-12 bg-primary-100 px-6">

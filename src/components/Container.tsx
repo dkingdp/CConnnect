@@ -7,9 +7,6 @@ import Footer from "./Footer";
 const Container = ({ children }: { children: JSX.Element }) => {
     return (
         <>
-            <Head>
-               
-            </Head>
             <div className="flex flex-col min-h-screen text-primary-200 overflow-x-hidden relative">
                 <Header />
                 {children}

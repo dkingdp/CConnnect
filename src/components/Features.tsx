@@ -28,9 +28,9 @@ const Features = () => {
                     <div className="relative z-10">
                         <Image src={Feature1} />
                     </div>
-                    <div>
+                    {/* <div>
                         <div className="w-64 h-64 rounded-full bg-primary-100 absolute bottom-0 transform right-20 "></div>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="col-span-1 text-primary-200">
                     <p className="text-5xl font-semibold text-primary-100">

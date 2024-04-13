@@ -10,7 +10,7 @@ const Content = () => {
                     <Image src={immigration} />
                 </div>
                 <div className="col-span-1">
-                    <p className="text-3xl leading-10">
+                    <p className="text-xl leading-10">
                         At C-connect, we offer our services through a case
                         management approach. It's important to note that we are
                         not a law firm, and while our consultations are
@@ -32,10 +32,10 @@ const Content = () => {
             </div>
             <div className="grid grid-cols-2 mt-10 text-black">
                 <div className="col-span-1">
-                    <h3 className="text-4xl font-bold ">
+                    <h3 className="text-2xl font-bold ">
                         Immigration Form Packages and Services
                     </h3>
-                    <p className="mt-5 text-3xl leading-10">
+                    <p className="mt-5 text-xl leading-10">
                         I-90 Green Card Renewal N-400 U.S Citizenship
                         (Naturalization) <br />
                         I-130 Sponsor your Relative for a Green Card
@@ -58,10 +58,10 @@ const Content = () => {
                 <div className="col-span-1"></div>
             </div>
             <div className="mt-20 text-center text-black">
-                <h3 className="text-4xl font-bold text-center">
+                <h3 className="text-2xl font-bold text-center">
                     Immigration Form Packages and Services
                 </h3>
-                <p className="mt-10 leading-10 text-3xl">
+                <p className="mt-10 leading-10 text-xl">
                     Irrespective of your immigration needs, Immigration Services
                     offers expert consultation and comprehensive assistance in
                     completing immigration forms. Our services provide a
@@ -75,10 +75,10 @@ const Content = () => {
             <div className="grid grid-cols-2 mt-20 text-black">
                 <div className="col-span-1"></div>
                 <div className="col-span-1">
-                    <h3 className="text-4xl font-bold text-center">
+                    <h3 className="text-2xl font-bold text-center">
                         Want to help immigrants shine?
                     </h3>
-                    <p className="m-10 text-3xl leading-10">
+                    <p className="m-10 text-xl leading-10">
                         Our volunteers are indispensable in guiding New
                         Americans forward, serving as trusted community members
                         who, often immigrants themselves, ensure that fellow
