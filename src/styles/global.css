@@ -13,7 +13,7 @@ body {
 
 
 .content {
-  width: 1420px;
+  width: 1080px;
   margin: 0 auto;
 }
 
@@ -34,7 +34,7 @@ body {
 
 .card {
   height: 430px;
-  width: 450px;
+  width: 350px;
   border-radius: 20px;
   position: relative;
 }

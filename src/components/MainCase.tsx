@@ -2,8 +2,9 @@ import Image from "next/image";
 import React from "react";
 import Arc from "../icons/arc.png";
 import Img from "../icons/main-image.png";
+import Link from "next/link";
 
-const MainCase= () => {
+const MainCase = () => {
     return (
         <div className="main-height bg-primary-200 relative overflow-x-hidden">
             <div className="absolute bottom-0 -left-1">
@@ -15,10 +16,11 @@ const MainCase= () => {
                         {" "}
                         Case management
                     </p>
-
-                    <button className="w-32 h-12 rounded bg-primary-100 font-medium text-white cursor-pointer transition-all ease-out">
-                        Let's Talk{" "}
-                    </button>
+                    <Link href={"/contact"}>
+                        <button className="w-32 h-12 rounded bg-primary-100 font-medium text-white cursor-pointer transition-all ease-out">
+                            Let's Talk{" "}
+                        </button>
+                    </Link>
                 </div>
                 <div className="absolute right-0 bottom-0 z-30">
                     <Image src={Img} />

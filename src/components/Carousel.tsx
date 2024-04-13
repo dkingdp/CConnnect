@@ -15,7 +15,7 @@ const Carousel = () => {
     };
     return (
         <Slider {...settings}>
-            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 mx-20 drop-shadow-lg">
+            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 drop-shadow-lg">
                 <div className="flex gap-x-2 items-center">
                     <div className="w-10 h-10 rounded-full bg-gray-500"></div>
                     <p className="font-semibold text-black">Tolu Adewale</p>
@@ -25,44 +25,38 @@ const Carousel = () => {
                     Their tailored programs truly make a difference in lives
                 </p>
             </div>
-            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 ml-10 mr-10 drop-shadow-lg">
+            <div className="w-96 h-48 rounded-md p-4 border border-blue-400  drop-shadow-lg">
                 <div className="flex gap-x-2 items-center">
                     <div className="w-10 h-10 rounded-full bg-gray-500"></div>
-                    <p className="font-semibold text-black">Tolu Adewale</p>
+                    <p className="font-semibold text-black">John Doe</p>
                 </div>
                 <p className="text-black mt-2 leading-8 border-b pb-4">
-                    Exceptional dedication to immigrant families' well-being!
-                    Their tailored programs truly make a difference in lives
+                    I just tried this recipe and it was amazing! The
+                    instructions were clear and easy to follow, and the end
+                    result was delicious. I will definitely be making this
+                    again. Thanks for sharing!
                 </p>
             </div>
-            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 ml-10 mr-10 drop-shadow-lg">
+            <div className="w-96 h-48 rounded-md p-4 border border-blue-400  drop-shadow-lg">
                 <div className="flex gap-x-2 items-center">
                     <div className="w-10 h-10 rounded-full bg-gray-500"></div>
-                    <p className="font-semibold text-black">Tolu Adewale</p>
+                    <p className="font-semibold text-black">Emeka Richard</p>
                 </div>
                 <p className="text-black mt-2 leading-8 border-b pb-4">
-                    Exceptional dedication to immigrant families' well-being!
-                    Their tailored programs truly make a difference in lives
+                    impressive commitment to cultural sensitivity and
+                    inclusivity, ensuring every family feels valued and
+                    supported
                 </p>
             </div>
-            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 ml-5 mr-10 drop-shadow-lg">
+            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 drop-shadow-lg">
                 <div className="flex gap-x-2 items-center">
                     <div className="w-10 h-10 rounded-full bg-gray-500"></div>
-                    <p className="font-semibold text-black">Tolu Adewale</p>
+                    <p className="font-semibold text-black">Favour Eke</p>
                 </div>
                 <p className="text-black mt-2 leading-8 border-b pb-4">
-                    Exceptional dedication to immigrant families' well-being!
-                    Their tailored programs truly make a difference in lives
-                </p>
-            </div>
-            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 ml-10 mr-10 drop-shadow-lg">
-                <div className="flex gap-x-2 items-center">
-                    <div className="w-10 h-10 rounded-full bg-gray-500"></div>
-                    <p className="font-semibold text-black">Tolu Adewale</p>
-                </div>
-                <p className="text-black mt-2 leading-8 border-b pb-4">
-                    Exceptional dedication to immigrant families' well-being!
-                    Their tailored programs truly make a difference in lives
+                    Highly effective partnerships with specialized agencies
+                    provide invaluable resources, setting a benchmark for
+                    community collaboration.
                 </p>
             </div>
         </Slider>

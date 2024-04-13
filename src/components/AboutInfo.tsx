@@ -6,7 +6,7 @@ import React from "react";
 const AboutInfo = () => {
     return (
         <div className="content my-20">
-            <div className="grid grid-cols-2 my-20">
+            <div className="grid grid-cols-2 my-20 gap-x-8">
                 <div className="col-span-1 flex items-center">
                     <Image src={MainImg} />
                 </div>
@@ -14,7 +14,7 @@ const AboutInfo = () => {
                     <p className="mb-10 text-4xl text-primary-100 font-semibold">
                         We’re here because of you.
                     </p>
-                    <p className="text-3xl leading-10">
+                    <p className="text-2xl">
                         Community Connect, established over a decade ago, has
                         successfully assisted numerous individuals seeking
                         connection by facilitating their seamless integration

@@ -2,7 +2,8 @@ import Image from "next/image";
 import React from "react";
 import Arc from "../icons/arc.png";
 import Img from "../icons/main-image.png";
-import path from "../icons/path.png"
+import path from "../icons/path.png";
+import Link from "next/link";
 
 const Main = () => {
     return (
@@ -29,9 +30,11 @@ const Main = () => {
                     <p className="text-white font-medium text-2xl">
                         What are your Challenges ?
                     </p>
-                    <button className="w-32 h-12 rounded bg-primary-100 font-medium text-white cursor-pointer transition-all ease-out">
-                        Let's Talk{" "}
-                    </button>
+                    <Link href={"/contact"}>
+                        <button className="w-32 h-12 rounded bg-primary-100 font-medium text-white cursor-pointer transition-all ease-out">
+                            Let's Talk{" "}
+                        </button>
+                    </Link>
                 </div>
                 <div className="absolute right-0 bottom-0 z-30">
                     <Image src={Img} />

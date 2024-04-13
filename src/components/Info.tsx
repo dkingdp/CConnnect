@@ -71,7 +71,7 @@ const Info = () => {
                 </div>
                 <div className="col-span-1 flex flex-col items-center relative">
                     <Image src={Img5} />
-                    <div className="testimonial shadow-lg absolute -bottom-32 left-20 bg-white p-10 text-primary-600 flex flex-col justify-between">
+                    {/* <div className="testimonial shadow-lg absolute -bottom-32 left-20 bg-white p-10 text-primary-600 flex flex-col justify-between">
                         <div className="border-l pl-10 text-2xl leading-10">
                             "Thank you so much for your help. It's exactly what
                             I've been looking for. You won't regret it. It
@@ -93,7 +93,7 @@ const Info = () => {
                                 <div className="">12 Reviews at Yelp</div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
             {/* <div className="mt-52 content flex justify-between">
