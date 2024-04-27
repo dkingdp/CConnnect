@@ -3,14 +3,14 @@ import caseImage from "../icons/Rectangle 2974.png";
 import Image from "next/image";
 const CaseContent = () => {
     return (
-        <div className="content">
-            <div className="grid grid-cols-2 gap-x-10 mt-20 text-black">
+        <div className="content px-4">
+            <div className="lg:grid sm:flex flex-col  grid-cols-2 gap-x-10 mt-20 text-black">
                 <div className="col-span-1">
                     <Image src={caseImage} />
                 </div>
-                <div className="col-span-1">
+                <div className="col-span-1 sm:mt-4 lg:mt-0">
                     <h3 className="text-2xl font-bold">Case management</h3>
-                    <p className="m-10 text-xl leading-10">
+                    <p className="lg:m-10 text-xl leading-10">
                         - Changing of address with the post office <br />
                         - Changing of address with the USCIS online <br />
                         - Help with immigration applications <br /> - Apply for
@@ -24,13 +24,13 @@ const CaseContent = () => {
                     </p>
                 </div>
             </div>
-            <div className="grid grid-cols-2 mt-20 text-black">
+            <div className="lg:grid grid-cols-2 lg:mt-20 sm:mt-10 text-black">
                 <div className="col-span-1"></div>
                 <div className="col-span-1">
                     <h3 className="text-2xl font-bold text-center">
                         Want to help immigrants shine?
                     </h3>
-                    <p className="m-10 text-xl leading-10">
+                    <p className="lg:m-10 text-xl leading-10">
                         Our volunteers are indispensable in guiding New
                         Americans forward, serving as trusted community members
                         who, often immigrants themselves, ensure that fellow

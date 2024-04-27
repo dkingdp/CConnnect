@@ -45,7 +45,7 @@ const AboutInfo = () => {
                 </p>
                 <div className="relative h-auto">
                     <div className="h-full bg-primary-100 rounded-full absolute "></div>
-                    <Image src={ElipseImg} />
+                    <Image src={ElipseImg} height={500} width={500} />
                 </div>
                 <p className="mt-10 font-semibold text-primary-100 text-5xl">
                     Bola Badmus

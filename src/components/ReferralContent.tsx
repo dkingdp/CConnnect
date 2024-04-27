@@ -4,9 +4,9 @@ import referalImage from "../icons/referrals.png"
 
 const ReferralContent = () => {
   return (
-      <div className="content mt-20">
+      <div className="content sm:mt-8 lg:mt-20 px-4">
           <Image src={referalImage} />
-          <h3 className="text-2xl font-bold text-black mt-20">Employment referral</h3>
+          <h3 className="text-2xl font-bold text-black sm:mt-8 lg:mt-20">Employment referral</h3>
           <p className="leading-10 text-xl mt-5 ">
               Community Connect (C-connect), formerly known as CC Nanny
               Placement Agency, has been facilitating the pairing of
@@ -40,13 +40,13 @@ const ReferralContent = () => {
               ensuring optimal compatibility and an enriching experience for all
               parties involved.
           </p>
-          <div className="grid grid-cols-2 mt-20 text-black">
+          <div className="sm:flex flex-col lg:grid grid-cols-2 sm:mt-10 lg:mt-20 text-black">
               <div className="col-span-1"></div>
               <div className="col-span-1">
                   <h3 className="text-2xl font-bold text-center">
                       Want to help immigrants shine?
                   </h3>
-                  <p className="m-10 text-xl leading-10">
+                  <p className="lg:m-10 text-xl leading-10">
                       Our volunteers are indispensable in guiding New Americans
                       forward, serving as trusted community members who, often
                       immigrants themselves, ensure that fellow newcomers

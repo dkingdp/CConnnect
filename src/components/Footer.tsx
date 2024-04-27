@@ -19,8 +19,10 @@ const Footer = () => {
                 <Image src={Brand4} /> */}
             </div>
             <div className="bg-primary-700">
-                <div className="py-20 flex content justify-between border-b text-white border-primary-800">
-                    <Image src={Logo} />
+                <div className="py-20 flex content justify-between border-b text-white border-primary-800 sm:flex-col lg:flex-row sm:px-4">
+                    <div className="sm:mb-10">
+                        <Image src={Logo} />
+                    </div>
                     <div className="">
                         <p className="mb-5 font-bold text-lg">Quick Link</p>
                         <Link href={"/"}>
@@ -46,12 +48,8 @@ const Footer = () => {
                     </div>
                     <div className="">
                         <p className="mb-5 font-bold">Get In Touch</p>
-                        <p className="mb-2 text-primary-800">
-                            Contact Us
-                        </p>
-                        <p className="mb-2 text-primary-800">
-                            About us
-                        </p>
+                        <p className="mb-2 text-primary-800">Contact Us</p>
+                        <p className="mb-2 text-primary-800">About us</p>
                     </div>
                     <div className="">
                         <p className="mb-5 font-bold">Address</p>
@@ -65,7 +63,7 @@ const Footer = () => {
                         <div className="flex">
                             <input
                                 type="text"
-                                className="h-12 pl-4 w-60 text-primary-800"
+                                className="h-12 pl-4 sm:w-52 lg:w-60 text-primary-800"
                                 placeholder="Enter Your Email"
                             />
                             <button className="h-12 bg-primary-100 px-6">

@@ -15,7 +15,7 @@ const Carousel = () => {
     };
     return (
         <Slider {...settings}>
-            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 drop-shadow-lg">
+            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 drop-shadow-lg mr-2">
                 <div className="flex gap-x-2 items-center">
                     <div className="w-10 h-10 rounded-full bg-gray-500"></div>
                     <p className="font-semibold text-black">Tolu Adewale</p>
@@ -25,7 +25,7 @@ const Carousel = () => {
                     Their tailored programs truly make a difference in lives
                 </p>
             </div>
-            <div className="w-96 h-48 rounded-md p-4 border border-blue-400  drop-shadow-lg">
+            <div className="w-96 h-48 rounded-md p-4 border border-blue-400  drop-shadow-lg mr-2!">
                 <div className="flex gap-x-2 items-center">
                     <div className="w-10 h-10 rounded-full bg-gray-500"></div>
                     <p className="font-semibold text-black">John Doe</p>
@@ -37,7 +37,7 @@ const Carousel = () => {
                     again. Thanks for sharing!
                 </p>
             </div>
-            <div className="w-96 h-48 rounded-md p-4 border border-blue-400  drop-shadow-lg">
+            <div className="w-96 h-48 rounded-md p-4 border border-blue-400  drop-shadow-lg mr-2!">
                 <div className="flex gap-x-2 items-center">
                     <div className="w-10 h-10 rounded-full bg-gray-500"></div>
                     <p className="font-semibold text-black">Emeka Richard</p>
@@ -48,7 +48,7 @@ const Carousel = () => {
                     supported
                 </p>
             </div>
-            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 drop-shadow-lg">
+            <div className="w-96 h-48 rounded-md p-4 border border-blue-400 drop-shadow-lg mr-2!">
                 <div className="flex gap-x-2 items-center">
                     <div className="w-10 h-10 rounded-full bg-gray-500"></div>
                     <p className="font-semibold text-black">Favour Eke</p>
