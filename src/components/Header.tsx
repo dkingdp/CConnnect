@@ -4,6 +4,7 @@ import Logo from "../icons/logo.png";
 import Link from "next/link";
 import { Popover, Transition } from "@headlessui/react";
 import { useRouter } from "next/router";
+import { GiHamburgerMenu } from "react-icons/gi";
 
 const Header = () => {
     const links = [
@@ -19,10 +20,10 @@ const Header = () => {
     const isActive = (href: string) => router.pathname === href;
 
     return (
-        <div className="w-full bg-white h-32 flex justify-between items-center fixed z-top shadow-lg">
+        <div className="w-full bg-white h-32 flex justify-between items-center fixed z-top shadow-lg sm:px-3">
             <div className="content mx-auto flex justify-between items-center h-full">
                 <Image src={Logo} height={80} />
-                <ul className="flex gap-x-8 items-center h-full">
+                <ul className="sm:hidden lg:flex gap-x-8 items-center h-full">
                     <Link href={"/"}>
                         <li
                             className={`cursor-pointer ${
@@ -99,6 +100,9 @@ const Header = () => {
                         </button>
                     </Link>
                 </ul>
+                <span className="cursor-pointer">
+                    <GiHamburgerMenu size={30} color="" />
+                </span>
             </div>
         </div>
     );

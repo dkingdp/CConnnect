@@ -14,8 +14,8 @@ import { FaStar } from "react-icons/fa";
 
 const Info = () => {
     return (
-        <div className="my-20 text-primary-500">
-            <div className="grid grid-cols-2 content gap-32">
+        <div className=" px-4 lg:my-20 text-primary-500">
+            <div className=" grid-cols-2 lg:grid sm:hidden  content gap-32">
                 <div className="col-span-1 flex flex-col items-center">
                     <div className="flex justify-around w-full">
                         <Image src={Img1} />
@@ -46,21 +46,21 @@ const Info = () => {
                     </div>
                 </div>
             </div>
-            <div className="grid grid-cols-2 content gap-32 mt-20">
+            <div className="lg:grid grid-cols-2 content sm:gap-2 lg:gap-32 sm:mt-8 lg:mt-20">
                 <div className="col-span-1 flex flex-col gap-y-8 justify-center">
-                    <p className="text-2xl">TESTIMONIAL</p>
-                    <p className="text-6xl font-bold">What They Say?</p>
-                    <p className="text-2xl text-primary-200">
+                    <p className="sm:text-xl lg:text-2xl">TESTIMONIAL</p>
+                    <p className="sm:text-xl lg:text-6xl font-bold">What They Say?</p>
+                    <p className="sm:text-xl lg:text-2xl text-primary-200">
                         Ccommunity has got more than 100k positive ratings from
                         our users around the world.
                         <br />
                         Some of the students and teachers were greatly helped by
                         the Ccommunity.
                     </p>
-                    <p className="text-2xl text-primary-200">
+                    <p className="sm:text-xl lg:text-2xl text-primary-200">
                         Are you too? Please give your assessment
                     </p>
-                    <div className="flex justify-center">
+                    <div className="sm:hidden lg:block flex justify-center">
                         <div className="h-20 w-64 relative border border-primary-400 border-r-0 rounded-r-full rounded-l-full flex pl-12  items-center text-2xl text-primary-400">
                             See More
                             <span className="h-20 w-20 rounded-full absolute right-0 top-0 border border-primary-400 flex justify-center items-center">
@@ -69,7 +69,7 @@ const Info = () => {
                         </div>
                     </div>
                 </div>
-                <div className="col-span-1 flex flex-col items-center relative">
+                <div className="col-span-1 flex flex-col items-center relative sm:mt-4">
                     <Image src={Img5} />
                     {/* <div className="testimonial shadow-lg absolute -bottom-32 left-20 bg-white p-10 text-primary-600 flex flex-col justify-between">
                         <div className="border-l pl-10 text-2xl leading-10">

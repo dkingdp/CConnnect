@@ -17,9 +17,10 @@ const Home: React.FC = () => {
                     <Main />
                     <Services />
                     <Features />
-                    <Gallery />
+                    <span className="lg:block sm:hidden">
+                        <Gallery />
+                    </span>
                     <Info />
-               
                 </>
             </Container>
         </>

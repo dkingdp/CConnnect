@@ -2,14 +2,14 @@ import React from "react";
 
 const ContactForm = () => {
     return (
-        <div className="content py-20">
+        <div className="content sm:py-10 lg:py-20 sm:px-4 lg:px-0">
             <p className="text-center text-primary-100 font-bold text-5xl">
                 Contact Us
             </p>
-            <div className="mt-10 grid grid-cols-5 gap-x-10">
+            <div className="mt-10 sm:flex flex-col lg:grid grid-cols-5 gap-x-10">
                 <div className="col-span-3">
-                    <div className="flex gap-x-5 mb-10">
-                        <div className="flex flex-col w-1/2">
+                    <div className="flex gap-x-5 mb-10 sm:flex-col lg:flex-row">
+                        <div className="flex flex-col lg:w-1/2 sm:w-full sm:mb-8 lg:mb-0">
                             <label htmlFor="" className="text-black">
                                 First name
                             </label>
@@ -19,7 +19,7 @@ const ContactForm = () => {
                                 placeholder="First name"
                             />
                         </div>
-                        <div className="flex flex-col w-1/2">
+                        <div className="flex flex-col lg:w-1/2 sm:w-full sm:mb-8 lg:mb-0">
                             <label htmlFor="" className="text-black">
                                 Last name
                             </label>
@@ -30,8 +30,8 @@ const ContactForm = () => {
                             />
                         </div>
                     </div>
-                    <div className="flex gap-x-5">
-                        <div className="flex flex-col w-1/2">
+                    <div className="flex gap-x-5 mb-10 sm:flex-col lg:flex-row">
+                        <div className="flex flex-col lg:w-1/2 sm:w-full sm:mb-8 lg:mb-0">
                             <label htmlFor="" className="text-black">
                                 Mail
                             </label>
@@ -41,7 +41,7 @@ const ContactForm = () => {
                                 placeholder="First name"
                             />
                         </div>
-                        <div className="flex flex-col w-1/2">
+                        <div className="flex flex-col lg:w-1/2 sm:w-full sm:mb-8 lg:mb-0">
                             <label htmlFor="" className="text-black">
                                 Phone
                             </label>
@@ -52,7 +52,7 @@ const ContactForm = () => {
                             />
                         </div>
                     </div>
-                    <div className="w-full mt-10 flex flex-col">
+                    <div className="w-full sm:mt-0 lg:mt-10 flex flex-col">
                         <label htmlFor="" className="text-black">
                             Message
                         </label>
@@ -66,12 +66,14 @@ const ContactForm = () => {
                         Send Message
                     </div>
                 </div>
-                <div className="col-span-2">
+                <div className="col-span-2 sm:mt-10 lg:mt-0">
                     <div className="h-full relative items-center justify-center">
                         <div className="flex flex-col bg-primary-900 h-72 p-6 text-black">
                             <p className="font-bold text-6xl">Address</p>
                             <p>
-                                <span className="font-semibold">Location : </span>
+                                <span className="font-semibold">
+                                    Location :{" "}
+                                </span>
                                 9520 Berger Rd STE 212, Columbia, MD 21046, USA
                             </p>
                             <p>
