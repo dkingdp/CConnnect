@@ -28,7 +28,7 @@ const Main = () => {
                     </p>
 
                     <p className="text-white font-medium sm:text-lg lg:text-2xl">
-                        What are your Challenges ?
+                        What are your Challenges?
                     </p>
                     <Link href={"/contact"}>
                         <button className="w-32 h-12 rounded bg-primary-100 font-medium text-white cursor-pointer transition-all ease-out">
