@@ -11,11 +11,11 @@ const About: React.FC = () => {
         <>
             <Container>
                 <>
-              
                     <MainAbout />
                     <AboutInfo />
-                    <Carousel />
-           
+                    <div className="sm:hidden lg:block">
+                        <Carousel />
+                    </div>
                 </>
             </Container>
         </>

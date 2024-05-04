@@ -54,8 +54,8 @@ const Footer = () => {
                     <div className="">
                         <p className="mb-5 font-bold">Address</p>
                         <p className="mb-2 text-primary-800">
-                            2464 Royal Ln. Mesa,
-                            <br /> New Jersey 45463
+                            9520 Berger Rd STE 212,
+                            <br /> Columbia, MD 21046, USA
                         </p>
                     </div>
                     <div className="">

@@ -100,7 +100,7 @@ const Header = () => {
                         </button>
                     </Link>
                 </ul>
-                <span className="cursor-pointer">
+                <span className="cursor-pointer sm:block lg:hidden">
                     <GiHamburgerMenu size={30} color="" />
                 </span>
             </div>
