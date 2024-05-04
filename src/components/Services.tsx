@@ -12,7 +12,7 @@ const Services = () => {
                 Services
             </p>
             <p className="sm:text-xl lg:text-4xl font-medium text-primary-100 sm:my-5 lg:my-10">
-                Carrer Mentoring
+                Career Mentoring
             </p>
             <p className=" sm:text-lg lg:text-2xl">
                 CCommunity is one powerful online Community suite that combines
