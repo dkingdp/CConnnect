@@ -8,7 +8,7 @@ const AboutInfo = () => {
         <div className="content my-20">
             <div className="grid grid-cols-2 my-20 gap-x-8">
                 <div className="col-span-1 flex items-center">
-                    <Image src={MainImg} />
+                    <Image src={//MainImg} />
                 </div>
                 <div className="col-span-1 flex flex-col items-center">
                     <p className="mb-10 text-4xl text-primary-100 font-semibold">
