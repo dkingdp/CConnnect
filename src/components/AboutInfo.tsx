@@ -47,9 +47,9 @@ const AboutInfo = () => {
                     <div className="h-full bg-primary-100 rounded-full absolute "></div>
                     {/*<Image src={ElipseImg} height={500} width={500} />*/}
                 </div>
-                <p className="mt-10 font-semibold text-primary-100 text-5xl">
+                {/* <p className="mt-10 font-semibold text-primary-100 text-5xl">
                     Bola Badmus
-                </p>
+                </p>*/}
                 <p className="mt-10 font-semibold text-primary-400 text-5xl mb-20">
                     Co-Founder & CEO
                 </p>
