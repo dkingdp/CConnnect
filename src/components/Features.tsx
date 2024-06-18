@@ -17,8 +17,7 @@ const Features = () => {
                 Features
             </p>
             <p className="text-primary-200 text-center sm:text-lg lg:text-2xl mt-4">
-                This very extraordinary feature, can make learning activities
-                more efficient
+                This very extraordinary feature, can make travelling and learning more efficient
             </p>
             <div className="sm:mt-24 lg:mt-52 content sm:flex sm:flex-col lg:grid grid-cols-2 gap-x-20">
                 <div className="col-span-1 relative sm:hidden lg:block">
