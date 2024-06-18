@@ -43,20 +43,11 @@ const AboutInfo = () => {
                 <p className="text-4xl font-semibold text-primary-100 mb-10">
                     Let’s do this together.
                 </p>
-                {/* <div className="relative h-auto">
-                    <div className="h-full bg-primary-100 rounded-full absolute "></div>
-                    {/*<Image src={ElipseImg} height={500} width={500} />*/}
-                </div>
-                {/* <p className="mt-10 font-semibold text-primary-100 text-5xl">
-                    Bola Badmus
-                </p>
-                <p className="mt-10 font-semibold text-primary-400 text-5xl mb-20">
-                    Co-Founder & CEO
-                </p>*/}
                 <p className="mt-10 font-semibold text-primary-100 text-5xl">
                     "Experience it for yourself."
                 </p>
             </div>
+        </div>
     );
 };
 
