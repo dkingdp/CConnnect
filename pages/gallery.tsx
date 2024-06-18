@@ -10,6 +10,14 @@ import Img3 from "../src/icons/WhatsApp Image 2024-04-01 at 14.51.35 (1).jpeg";
 import Img4 from "../src/icons/WhatsApp Image 2024-04-01 at 14.51.35.jpeg";
 import Img5 from "../src/icons/WhatsApp Image 2024-04-01 at 14.51.36 (1).jpeg";
 import Img6 from "../src/icons/WhatsApp Image 2024-04-01 at 14.51.36.jpeg";
+import Cc1 from "../src/icons/cc-images.jpeg";
+import Cc2 from "../src/icons/cc-2.jpeg";
+import Cc3 from "../src/icons/cc-3.jpeg";
+import Cc4 from "../src/icons/cc-4.jpeg";
+import Cc5 from "../src/icons/cc-5.jpeg";
+import Cc6 from "../src/icons/cc-6.jpeg";
+import Cc7 from "../src/icons/cc-7.jpeg";
+import Cc8 from "../src/icons/cc-8.jpeg";
 import React, { useState } from "react";
 import Image from "next/image";
 
@@ -47,7 +55,39 @@ const GalleryPage: React.FC = () => {
                                 <div className="col-span-1  flex justify-start">
                                     <Image src={Img6} />
                                 </div>
-                            </div>{" "}
+                            </div>
+                            <div className="px-4 sm:flex flex-col sm:gap-y-4 lg:grid grid-cols-2 content sm:mt-4 lg:mt-32">
+                                <div className="col-span-1  flex justify-end">
+                                    <Image src={Cc1} />
+                                </div>
+                                <div className="col-span-1  flex justify-start">
+                                    <Image src={Cc2} />
+                                </div>
+                            </div>
+                            <div className="px-4 sm:flex flex-col sm:gap-y-4 lg:grid grid-cols-2 content sm:mt-4 lg:mt-32">
+                                <div className="col-span-1  flex justify-end">
+                                    <Image src={Cc3} />
+                                </div>
+                                <div className="col-span-1  flex justify-start">
+                                    <Image src={Cc4} />
+                                </div>
+                            </div>
+                            <div className="px-4 sm:flex flex-col sm:gap-y-4 lg:grid grid-cols-2 content sm:mt-4 lg:mt-32">
+                                <div className="col-span-1  flex justify-end">
+                                    <Image src={Cc5} />
+                                </div>
+                                <div className="col-span-1  flex justify-start">
+                                    <Image src={Cc6} />
+                                </div>
+                            </div>
+                            <div className="px-4 sm:flex flex-col sm:gap-y-4 lg:grid grid-cols-2 content sm:mt-4 lg:mt-32">
+                                <div className="col-span-1  flex justify-end">
+                                    <Image src={Cc7} />
+                                </div>
+                                <div className="col-span-1  flex justify-start">
+                                    <Image src={Cc8} />
+                                </div>
+                            </div>
                         </>
                     ) : (
                         ""
