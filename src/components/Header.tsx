@@ -1,28 +1,36 @@
 import Image from "next/image";
-import React, { Fragment } from "react";
+import React, { Fragment, useState } from "react";
 import Logo from "../icons/logo.png";
 import Link from "next/link";
 import { Popover, Transition } from "@headlessui/react";
 import { useRouter } from "next/router";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Spin as Hamburger } from "hamburger-react";
+import MenuTray from "./MenuTray";
 
+export const links = [
+    { name: "Immigration Consulting ", href: "immigration" },
+    { name: "Case Management", href: "case" },
+    // { name: "Community Resettlement and Resources", href: "resources" },
+    // { name: "Career Mentoring", href: "career" },
+    { name: "Employment Referral Services", href: "referral" },
+];
 const Header = () => {
-    const links = [
-        { name: "Immigration Consulting ", href: "immigration" },
-        { name: "Case Management", href: "case" },
-        // { name: "Community Resettlement and Resources", href: "resources" },
-        // { name: "Career Mentoring", href: "career" },
-        { name: "Employment Referral Services", href: "referral" },
-    ];
-
     const router = useRouter();
+
+    const [isOpen, setIsOpen] = useState(false);
 
     const isActive = (href: string) => router.pathname === href;
 
     return (
         <div className="w-full bg-white h-32 flex justify-between items-center fixed z-top shadow-lg sm:px-3">
+            <MenuTray isOpen={isOpen} isActive={isActive} />
             <div className="content mx-auto flex justify-between items-center h-full">
-                <Image src={Logo} height={80} />
+                <span>
+                    <Link href={"/"}>
+                        <Image src={Logo} height={80} />
+                    </Link>
+                </span>
                 <ul className="sm:hidden lg:flex gap-x-8 items-center h-full">
                     <Link href={"/"}>
                         <li
@@ -100,8 +108,8 @@ const Header = () => {
                         </button>
                     </Link>
                 </ul>
-                <span className="cursor-pointer sm:block lg:hidden">
-                    <GiHamburgerMenu size={30} color="" />
+                <span className="cursor-pointer sm:block lg:hidden z-50">
+                    <Hamburger toggled={isOpen} toggle={setIsOpen} />
                 </span>
             </div>
         </div>
