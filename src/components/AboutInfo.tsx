@@ -49,10 +49,10 @@ const AboutInfo = () => {
                 </div>
                 {/* <p className="mt-10 font-semibold text-primary-100 text-5xl">
                     Bola Badmus
-                </p>*/}
+                </p>
                 <p className="mt-10 font-semibold text-primary-400 text-5xl mb-20">
                     Co-Founder & CEO
-                </p>
+                </p>*/}
                 <p className="mt-10 font-semibold text-primary-100 text-5xl">
                     "Experience it for yourself."
                 </p>
