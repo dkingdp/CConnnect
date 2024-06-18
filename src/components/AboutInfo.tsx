@@ -7,8 +7,8 @@ const AboutInfo = () => {
     return (
         <div className="content my-20">
             <div className="grid grid-cols-2 my-20 gap-x-8">
-                <div className="col-span-1 flex items-center sm:hidden">
-                    <Image src={MainImg} />
+                <div className="col-span-1 flex items-center">
+                    {/*<Image src={MainImg} />*/}
                 </div>
                 <div className="col-span-2 text-center flex flex-col items-center">
                     <p className="mb-10 text-4xl text-primary-100 font-semibold">
@@ -45,14 +45,14 @@ const AboutInfo = () => {
                 </p>
                 {/* <div className="relative h-auto">
                     <div className="h-full bg-primary-100 rounded-full absolute "></div>
-                    <Image src={ElipseImg} height={500} width={500} />
+                    {/*<Image src={ElipseImg} height={500} width={500} />*/}
                 </div>
-                <p className="mt-10 font-semibold text-primary-100 text-5xl">
+                {/* <p className="mt-10 font-semibold text-primary-100 text-5xl">
                     Bola Badmus
                 </p>
                 <p className="mt-10 font-semibold text-primary-400 text-5xl mb-20">
                     Co-Founder & CEO
-                </p> */}
+                </p>*/}
                 <p className="mt-10 font-semibold text-primary-100 text-5xl">
                     "Experience it for yourself."
                 </p>
